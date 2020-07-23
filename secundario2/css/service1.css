@@ -1,0 +1,184 @@
+
+.swiper-container {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 89%);
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #26D0CE;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+#logo{
+  float: left;
+  margin-top: 0px;
+  margin-left: 650px;
+  clip-path: polygon(86% 0, 100% 50%, 84% 100%, 0 100%, 12% 47%, 0 0);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'open sans';
+}
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.titulo{
+  color: #26D0CE;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+header{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header i {
+  position:absolute;
+  top: 15px;
+  left: 0;
+  color:  #21afad;
+  font-size: 16px;
+  
+}
+nav{
+  text-align: right;
+  padding: 48px 50px 0 0;
+  background:url(../img/cinta.jpg);
+}
+nav > a {
+  color: #26D0CE;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+nav > a:hover{
+  text-decoration: underline;
+}
+.contenedor-sobre-servicios{
+  display: flex;
+  justify-content: space-evenly;
+
+  
+}
+.contenedor-sobre-serviciosb{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sobre-servicios .contenido-textos{
+  width: 48%;
+}
+.contenedor-sobre-servicios2{
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedor-sobre-servicios2b{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.sobre-servicios2 .contenido-textos{
+  width: 48%;
+}
+.imagen-about-us{
+  width: 48%;
+  margin-bottom: 30px;
+  clip-path: polygon(0 13%, 100% 0, 100% 82%, 0 83%);
+}
+.contenido-textos h3{
+  margin-bottom: 17px;
+}
+.contenido-textos h3 span{
+  background: #21afad;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-right: 5px;
+}
+.contenido-textos{
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.servicios2{
+  background: #f2f2f2;
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);
+}
+
+footer{
+  background: hsla(165, 100%, 7%, 0.815);
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #21afad
+
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #26D0CE;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content-foo p{
+  color: #fff
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}

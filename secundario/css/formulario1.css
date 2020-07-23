@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/m4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'open sans';
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    
+}
+header i {
+    position:absolute;
+    top: 2%;
+    left: 0%;
+    color:  #21afad;
+    font-size: 15px;
+    
+}
+nav{ 
+    text-align: right;
+    padding: 30px 50px 0 0;
+    background:url(../img/cinta.jpg);
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    
+}
+nav > a{ 
+    color:  #26D0CE;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 16px; 
+    font-size: 15px;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+#logo{
+    float: left;
+    margin-top: -60px;
+    margin-left:600px;
+    clip-path: polygon(86% 0, 100% 50%, 84% 87%, 0% 87%, 12% 48%, 0% 0%);
+}
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: 'open sans';
+    color: #0ae4e0;
+    text-align: center;
+    padding: 14px 0;
+
+}
+.contenedor .form .form-header .form-title span {
+    color:#ffff;
+}
+.contenedor .form{
+    background: #1a95a586;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    
+}
+.contenedor .form .form-label{
+    display: block;
+    color:#ffff;
+    font-size: 14px;
+    font-family:'open sans';
+    position: relative;
+    padding: 2px 0;
+}
+
+.contenedor .form .form-input, .form-textarea {
+    background: hsla(0, 0%, 100%, 0.658);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Roboto;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    transition: all .5s;
+}
+.contenedor .form .form-input:hover{
+    background: #ffff;
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor .form .form-textarea:hover{
+    background: #ffff;
+}
+.contenedor .form .btn-submit {
+    width:100%;
+    font-family: 'open sans';
+    font-size: 14px;
+    outline: none;
+    background:  hsla(179, 92%, 47%, 0.527);
+    border: none;
+    color: #DCFFFD;
+    padding: 15px 0;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    transition: all .5s ease;
+}
+.contenedor .form .btn-submit:hover {
+    background: #0ae4e0
+}
